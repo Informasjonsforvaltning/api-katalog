@@ -22,3 +22,8 @@ Scenario 3: Filter on accessrights
 Given user is on api-start page
 When user select one accessright from the filter of all accessrights in the result-set
 Then only APIs with that accessright should be shown in result-list
+
+Scenario 4: Filter on type (REST, SOAP, Streams, Resten, ...)
+Given user is on api-start page
+When user select one type from the filter of all types in the result-set
+Then only APIs with that type should be shown in result-list

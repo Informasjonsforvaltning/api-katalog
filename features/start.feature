@@ -11,5 +11,5 @@ Acceptance Criteria: (presented as Scenarios)
 Scenario 1: Start page
 When the user has selected the API-pane
 Then a list of the first 50 APIs are shown
-And the list should be ordered by provenance field (1-NASJONAL, 2-VEDTAK, 3-BRUKER, 4-TREDJEPART, 5-UKJENT)
+And the list should be ordered by provenance field (1-NASJONAL, 2-VEDTAK, 3-BRUKER, 4-TREDJEPART, 9-UKJENT), registration, changed date
 And each API-description is shown as a summary box
